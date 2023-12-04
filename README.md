@@ -30,7 +30,7 @@ To use this project, ensure you have installed:
 1. Clone this repository on your local machine:
 
    ```bash
-   git clone https://github.com/gonzalezvictorjuan/curriculum-vitae.git
+   git clone -b base https://github.com/gonzalezvictorjuan/curriculum-vitae.git
    ```
 
 2. Navigate to the project directory:
