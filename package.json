@@ -1,0 +1,28 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://user.github.io/curriculum-vitae/",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "npx webpack-dev-server --mode=development"
+  },
+  "keywords": [],
+  "author": "your name",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "gh-pages": "^6.1.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
