@@ -6,7 +6,6 @@
   "homepage": "https://user.github.io/curriculum-vitae/",
   "scripts": {
     "build": "webpack --mode=production",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "npx webpack-dev-server --mode=development"
   },

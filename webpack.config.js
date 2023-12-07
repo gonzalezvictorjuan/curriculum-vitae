@@ -16,7 +16,11 @@ module.exports = {
       },
     ],
   },
-  devServer: { port: 4000 },
+  devServer: {
+    port: 8080,
+    hot: false,
+    liveReload: true,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',

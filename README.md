@@ -1,4 +1,4 @@
-# Curriculum Vitae
+# Curriculum Vitae :octocat:
 
 ## Table of Contents
 
@@ -7,6 +7,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [deployment](#deployment)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -61,6 +62,18 @@ npm run build
 ```
 
 This command will generate optimized files in the dist folder.
+
+## Deployment (gh-pages)
+
+Use the following command to deploy to GitHub Pages after building:
+
+edit homepage in package.json
+
+```bash
+npm run build && npm run deploy
+```
+
+Your project will be available at https://your-username.github.io/repository-name/.
 
 ## Contribute
 
